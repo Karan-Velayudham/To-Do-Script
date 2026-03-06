@@ -1,0 +1,41 @@
+.todo-component {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.todo-component h2 {
+  text-align: center;
+}
+
+.todo-component input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-component button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-component button:hover {
+  background-color: #218838;
+}
+
+.todo-component ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-component li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
