@@ -1,0 +1,13 @@
+plugins {
+    // Apply the base plugin by default for common tasks like 'clean'
+    id 'base'
+}
+
+// Defining a custom task to execute the shell script
+task executeTodoScript(type: Exec) {
+    workingDir projectDir
+    commandLine 'bash', './scripts/build-todo.sh'
+}
+
+// Hook the custom task into the build process
+build.dependsOn executeTodoScript
