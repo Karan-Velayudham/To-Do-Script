@@ -1,19 +1,27 @@
-# ScopeSentinel Project
+# ScopeSentinel Simple UI Page
 
-## Recent Changes
+## Overview
 
-### Removal of SCRUM-6 Directory
+This implementation introduces a simple UI page into the ScopeSentinel application. The page is built using the existing React technology stack and is accessible through a newly added route.
 
-The `SCRUM-6` directory has been removed to clean up the repository and eliminate obsolete files. This change required ensuring that no code within the current codebase depended on this directory. Steps were taken to verify the removal process, including checking for references, running a complete set of tests, and validating the integrity of the application post-deletion.
+## Features
 
-#### Details of Removal Process:
-- The `SCRUM-6` directory was deleted from the root of the repository.
-- A comprehensive search for any references to `SCRUM-6` was conducted across the entire codebase. No active references were found, or all identified references were removed to eliminate dependencies.
-- The application was rebuilt and all tests were executed to validate the current functionality of the application.
-- All tests passed successfully, confirming that the removal had no negative impact on the existing functionality.
+- **SimpleUIPage Component**: A new React component titled `SimpleUIPage` displays a welcome message.
+- **Styling**: The component is styled to center the text and provide a light background color.
+- **Routing**: The application integrates this page via React Router, allowing navigation to the `/simple` URL.
+- **Navigation**: A link is added to the navigation menu to access the Simple UI Page.
 
-#### Next Steps:
-- Changes have been committed to the local repository with the message "Removed SCRUM-6 directory and cleaned up references."
-- The changes have been pushed to the remote repository, and a pull request has been created for peer review.
+## How to Run
 
-This cleanup is part of regular maintenance efforts to ensure the codebase remains lean and easy to maintain.
+1. **Start the Application**: Use `npm start` or `yarn start` to run the app.
+2. **Visit the Simple UI Page**: Navigate to `http://localhost:3000/simple` to see the new UI component.
+3. **Navigation**: Use the provided link in the navigation menu to navigate to the page.
+
+## Testing
+
+- Ensure that the page is displayed correctly at the `/simple` route.
+- Verify that the styles are applied properly, centering the message and using the specified background color.
+
+## Commit and Push
+
+All changes should be committed with appropriate messages and pushed to the repository for review and integration.
