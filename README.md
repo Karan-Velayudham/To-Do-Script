@@ -1,27 +1,25 @@
-# ScopeSentinel Simple UI Page
+# ScopeSentinel To-Do Component
 
 ## Overview
-
-This implementation introduces a simple UI page into the ScopeSentinel application. The page is built using the existing React technology stack and is accessible through a newly added route.
+This implementation introduces a new To-Do UI component for ScopeSentinel, using the React framework. The component provides a simple interface for users to add and view tasks.
 
 ## Features
+- Input field for task entry
+- Button to add tasks
+- Task list display
 
-- **SimpleUIPage Component**: A new React component titled `SimpleUIPage` displays a welcome message.
-- **Styling**: The component is styled to center the text and provide a light background color.
-- **Routing**: The application integrates this page via React Router, allowing navigation to the `/simple` URL.
-- **Navigation**: A link is added to the navigation menu to access the Simple UI Page.
+## Technology Stack
+- **React**: JavaScript library for building user interfaces
+- **CSS**: Styling the component
 
 ## How to Run
+- Install dependencies: `npm install`
+- Run the application: `npm start`
+- Execute tests: `npm test`
 
-1. **Start the Application**: Use `npm start` or `yarn start` to run the app.
-2. **Visit the Simple UI Page**: Navigate to `http://localhost:3000/simple` to see the new UI component.
-3. **Navigation**: Use the provided link in the navigation menu to navigate to the page.
+## Directory Structure
+- `src/components/ToDoComponent.js`: Main component file
+- `src/components/ToDoComponent.css`: Stylesheet for the component
+- `src/components/__tests__/ToDoComponent.test.js`: Test cases for the component
 
-## Testing
-
-- Ensure that the page is displayed correctly at the `/simple` route.
-- Verify that the styles are applied properly, centering the message and using the specified background color.
-
-## Commit and Push
-
-All changes should be committed with appropriate messages and pushed to the repository for review and integration.
+The To-Do Component is integrated into the main application and can be accessed by running the application locally.
