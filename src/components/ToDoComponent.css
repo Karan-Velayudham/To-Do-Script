@@ -1,0 +1,47 @@
+.todo-component {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.todo-component h2 {
+  margin-bottom: 10px;
+}
+
+.todo-component input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.todo-component button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-component button:hover {
+  background-color: #0056b3;
+}
+
+.todo-component ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-component li {
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
